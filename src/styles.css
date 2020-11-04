@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#display {
+  height: 10vh;
+  width: 320px;
+  background-color: #9ba4b4;
+  font-size: 44px;
+  padding-top: 16vh;
+  color: #14274e;
+}
+
+.button-container {
+  background-color: #f1f6f9;
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-block {
+  font-size: 20px;
+  border: none;
+  background: transparent;
+  width: 80px;
+  height: 80px;
+}
+
+.big-block {
+  font-size: 20px;
+  border: none;
+  background: transparent;
+  width: 160px;
+  height: 80px;
+}
+
+.v-block {
+  padding: 24px;
+  border: none;
+  background: transparent;
+  width: 80px;
+  height: 80px;
+}
+
+.parent {
+  position: relative;
+}
+
+.children {
+  background-color: #f1f6f9;
+  position: absolute;
+}
